@@ -1,0 +1,8 @@
+{
+  "name": "SearXNG",
+  "description": "Private metasearch engine",
+  "url": "http://host.docker.internal:8081",
+  "method": "GET",
+  "query_param": "q",
+  "response_path": "results"
+}
