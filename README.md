@@ -42,4 +42,4 @@ docker compose up -d --build         # rebuild and start
 
 Then after its all done
 For Searxng Query URL (OpenWebui)
-http://searxng:8080/search?q=<query>
+```http://searxng:8080/search?q=<query>```
