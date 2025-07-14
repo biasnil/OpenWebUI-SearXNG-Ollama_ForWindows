@@ -30,9 +30,11 @@ Add the file into your Users\<name>\
 ```
 then open powershell
 add this code
+```
 cd C:\Users\<name> <------------ Change this \webai-stack
 docker compose down -v               # stop & wipe anonymous volumes
 docker compose up -d --build         # rebuild and start
+```
 
 
 > **Why mostly on Windows?**  
