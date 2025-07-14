@@ -33,3 +33,7 @@ add this code
 cd C:\Users\<name> <------------ Change this \webai-stack
 docker compose down -v               # stop & wipe anonymous volumes
 docker compose up -d --build         # rebuild and start
+```
+
+> **Why mostly on Windows?**  
+> Docker Desktop for Windows runs containers inside a hidden WSL 2 VM.  Paths, hostnames (`host.docker.internal`), and read-only filesystems behave differently from native Linux, so mounts and internal URLs that “just work” on Linux often need explicit fixes when the host OS is Windows.
